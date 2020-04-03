@@ -1,3 +1,4 @@
+"use strict";
 //....let..//
 //console.log(intValue); Cannot access 'intValue' before initialization in let
 let intValue = 10;
@@ -15,3 +16,10 @@ console.log(intValue1);
 //console.log(pi);Cannot access 'pi' before initialization
 const pi = 3.14;
 console.log(pi);
+
+// let boolValue = true;
+// console.log(typeof boolValue);
+// boolValue = 10;
+// console.log(boolValue);
+// numValue = 1000;
+// console.log(numValue);

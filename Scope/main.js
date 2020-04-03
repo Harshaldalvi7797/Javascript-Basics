@@ -27,3 +27,5 @@ console.log(intValue2); // it gives 20 value
   var b = 200;
 }
 // console.log(b);
+let _value = 1000;
+console.log(_value);
