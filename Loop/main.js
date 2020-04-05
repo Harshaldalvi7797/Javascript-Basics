@@ -32,10 +32,11 @@ for (let i of strArray) {
   // document.write("</br>");
 }
 
-for (let counter = 0; counter <= 5; counter++) {
+for (let counter = 0; counter <= 100; counter++) {
   for (let counter1 = 0; counter1 <= counter; counter1++) {
     console.log(counter1);
     document.write("*");
   }
+  document.write("*");
   document.write("</br>");
 }
