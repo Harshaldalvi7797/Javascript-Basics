@@ -19,9 +19,13 @@ function getLogindata() {
 function LoginResponseisValid(strmessage) {
   let type = typeof strmessage;
   if (type === "boolean") {
+    $("#divMessage").html("");
+    $("#divMessage").hide();
+
     console.log("Redirect to Dashboatd");
-    document.write("Welcome");
+    // document.write("Welcome");
   } else if (type === "string") {
+    onCancel();
     $("#divMessage").html(strmessage);
     $("#divMessage").show();
   }
