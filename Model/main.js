@@ -52,3 +52,8 @@ userDisplayObj.display(userModelObj);
 
 let userModelJson = JSON.stringify(userModelObj);
 console.log(userModelJson);
+
+//DeSerialization
+
+let userModelObj12 = JSON.parse(userModelJson);
+console.log(userModelObj12);
