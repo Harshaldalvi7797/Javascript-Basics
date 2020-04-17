@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login Form</h1>
+      <div class="text-box">
+        <i classclass="fas fa-user"></i>
+        <input type="text" id="txtfirstname" placeholder="enter first name" />
+      </div>
+      <div class="text-box">
+        <input type="text" id="txtlastname" placeholder="enter last name" />
+      </div>
+
+      <input
+        type="button"
+        class="btn"
+        placeholder="Submit"
+        name=""
+        value="Submit"
+        onclick="onSubmitClickEvent()"
+      />
+
+      <input
+        type="button"
+        class="btn"
+        placeholder="Submit"
+        name=""
+        value="Cancel"
+        onclick="onCancelClickEvent()"
+      />
+    </div>
+  </body>
+  <script src="../Lib/jquery-3.4.1.min.js"></script>
+  <script src="../Model/userModel.js"></script>
+  <script src="../Controller/userController.js"></script>
+</html>
